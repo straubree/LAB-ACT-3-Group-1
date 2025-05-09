@@ -1,0 +1,49 @@
+@startuml
+
+abstract class Building {
+    - location: str
+    - size: int
+    - floors: int
+    + open_doors(): void
+    + close_doors(): void
+    + operate(): void
+}
+
+class ResidentialHouse {
+    - bedrooms: int
+    - has_garden: bool
+    + ring_doorbell(): void
+    + hold_party(): void
+    + operate(): void
+}
+
+class Hospital {
+    - departments: list
+    - emergency_cases: int
+    + emergency_alert(): void
+    + admit_patient(emergency: bool): void
+    + operate(): void
+}
+
+class School {
+    - students: int
+    - extracurriculars: list
+    + start_classes(): void
+    + hold_assembly(): void
+    + operate(): void
+}
+
+class ConvenienceStore {
+    - open_24_7: bool
+    - inventory: dictionary
+    + make_sale(): void
+    + add_inventory(item: str, quantity: int): void
+    + operate(): void
+}
+
+Building <|-- ResidentialHouse
+Building <|-- Hospital
+Building <|-- School
+Building <|-- ConvenienceStore
+
+@enduml
