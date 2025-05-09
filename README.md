@@ -72,8 +72,6 @@ The class diagram includes:
 - Four subclasses: `ResidentialHouse`, `Hospital`, `School`, `ConvenienceStore`
 - All subclasses inherit from `Building` and override the abstract `operate()` method.
 
-*(See `ClassDiagram.png` or your PlantUML code for reference.)*
-
 ---
 
 ▶️ How to Run the Program
