@@ -1,5 +1,11 @@
 # 🏗️ Building Types – OOP Inheritance Project
 
+👥 Team Members
+- [ESTRADA, AUBREY NICOLE P.]
+- [MALINAO, CHRISTOPHER III B.]
+- [ALBO, LEX RANDAL B.]
+- [ESPLANA, JOHN REI]
+
 ## 📌 Overview
 
 This project is a demonstration of **Object-Oriented Programming (OOP)** in Python using an **abstract base class** and multiple **subclasses**. It models different types of buildings—each with specific behaviors and properties—showing how inheritance and abstraction can be used to design scalable systems.
@@ -70,9 +76,22 @@ The class diagram includes:
 
 ---
 
-## 🚀 How to Run
+▶️ How to Run the Program
 
-1. Make sure you have Python 3 installed.
-2. Run the script with:
+1. Make sure you have **Python 3** installed on your computer.
+2. Save the code into a `.py` file (e.g., `building_system.py`).
+3. Open a terminal or command prompt.
+4. Run the script using:
    ```bash
-   python your_script_name.py
+   python building_system.py
+The program will display outputs simulating the actions of each building type.
+
+## 🙏 Acknowledgement
+
+We would like to express our sincere gratitude to our instructor, Ms. Fatima Marie agdon, for guiding us throughout the development of this project and helping us deepen our understanding of object-oriented programming concepts.
+
+We also extend our thanks to our classmates and peers who shared insights and encouragement during brainstorming and debugging sessions.
+
+This project strengthened our skills in Python, problem-solving, and teamwork—and gave us a better appreciation for how real-world systems can be modeled in code.
+
+Lastly, we acknowledge each team member's effort and dedication in contributing to the success of this project.
